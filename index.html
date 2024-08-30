@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   
+    <title>ativ1</title>
+</head>
+<body>
+    <div class="header">header</div>
+
+    <div class-="conteiner">
+        <div class="main">
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+            <div class="item">item</div>
+    </div>
+    <div class="sidebar">sidebar</div>
+    </div>
+
+    <div class="footer">fooder</div>
+
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .header, .footer{
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .container{
+            display: flex;
+            flex: 1;
+            gap: 10px;
+        }
+        .main{
+            flex: 3;
+            background-color: #28a745;
+            padding: 20px;
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .item{
+            background-color: #3c763d;
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+            flex: 1 1 ;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba (0,0,0.1);
+        }
+        .sidebar {
+            flex:1;
+            background-color: #dc3545;
+            padding: 20px;
+            border-radius: 8px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
